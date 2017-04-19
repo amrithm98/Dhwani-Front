@@ -55,7 +55,7 @@ app.controller('ContactController', function ($scope, $http) {
         }
         var eventList=JSON.stringify(registeredEvents).slice(1,-1);
         $scope.data.events=eventList;
-        $http.post('http://localhost:11000/register',$scope.data).success(function(req,res){
+        $http.post('http://104.131.163.77:11000/register',$scope.data).success(function(req,res){
             if(req.Success)
             {
                 alert('Registed Successfully');
