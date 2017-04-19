@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>Dhwani 2017 | Registration</title>
+		
+		<!--Favicon-->
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="icon" href="img/dhw_logo.png">
+				
+		<!--Fonts-->
+		<link href='https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Hind:400,500,300,600' rel='stylesheet' type='text/css'>
+		 <!-- <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+
+		
+		<!--CSS-->
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/materialize.min.css" />
+	</head>
+	
+	<body id="body" data-ng-app="contactApp">
+		
+		<!--Fixed Bg Image-->
+		<div class="fixed-bg"></div>
+		<div class="fixed-bg-overlay"></div>
+		<!--/Fixed Bg Image-->
+				
+		<!--Preloader-->
+		<div id="pre_load" class="preloader-it">
+			<div id="la_anim" class="la-anim-1"></div>
+		</div>
+		<!--/Preloader-->
+				
+		<!--Container-->
+		<div class="container-fluid">
+			<div class="row">
+				<div id="vertical_nav_wrap" class="col-lg-4 col-xs-12 pad-zero vertical-nav-wrap">
+					
+				</div>
+				
+				<div class="col-lg-8 col-xs-12 pad-zero">
+					
+				<!--Header-->
+					<header>
+						<div class="header-wrap col-lg-10 center-div">
+							<div class="float-left name">
+								<a data-scroll href="index.html">
+									<span>
+										DHWANI 2017
+									</span>
+								</a>	
+							</div>	
+						</div>
+						<div class="clearfix"></div>
+					</header>
+					<!--/Header-->
+					
+					<!--Main Content-->
+					<div id="main_content" class="content-block margin-top-150 margin-top-sm-70 margin-top-xs-50">
+
+						<section id="reg"  class="col-lg-10 col-md-11 col-sm-11 center-div intro-content-wrap sec-pad">
+							<div class="person-img margin-bottom-xs"></div>
+							<h1>
+								<span class="dhwani">REGISTRATION</span>
+							</h1>
+						<!-- </section> -->
+						<div class="row">
+						
+						<!--Register Section Start-->
+						<!-- <section id="services_sec"  class="col-lg-10 col-md-11 col-sm-11 center-div services-icon-wrap  sec-pad-top sec-pad-bottom-xs"> -->
+
+						<!--Introduction Sec-->
+						    
+						    <form class="col s12" data-ng-controller="ContactController">
+						      <div class="row">
+						        <div class="input-field col s6">
+						          <input id="first_name" type="text" class="validate" ng-model="data.name">
+						          <label for="first_name">Name</label>
+						        </div>
+						        <div class="input-field col s6">
+						          <input id="last_name" type="text" class="validate" ng-model="data.phone">
+						          <label for="last_name">Phone Number</label>
+						        </div>
+						      </div>
+						      <div class="row">
+
+						      <div class="row">
+						        <div class="input-field col s6">
+						          <input  " id="first_name" type="email" class="validate" ng-model="data.email">
+						          <label for="first_name">Email ID</label>
+						        </div>
+
+						        <div class="input-field col s6">
+						          <input id="first_name" type="text" class="validate" ng-model="data.college">
+						          <label for="first_name">College</label>
+						        </div>
+						       </div>
+						       
+						       <div class="row">
+									<div class="input-field col s6">
+										<div class="switch">
+											<label>
+											Male
+											<input type="checkbox" id="sex">
+												<span class="lever"></span>
+											Female
+											</label>
+										</div>
+									</div>
+
+									<div class="input-field col s6">
+										<div class="switch">
+											<label>
+											Accomodation : NO
+											<input type="checkbox" id="accomodation">
+												<span class="lever"></span>
+											YES
+											</label>
+										</div>
+									</div>
+							    </div>
+							   </div>
+							   <div class="row">
+							   		<div class="col s12">
+							   			<p>&nbsp;</p>
+							   		</div>
+							   </div>
+
+								<div class="row">
+									<div class="col s4">
+										<p><b>DANCE EVENTS</b></p>
+										<p><input type="checkbox" id="20" />
+										<label for="20">CHOREONITE</label>
+										</p>
+										<p><input type="checkbox" id="9" />
+										<label for="9">DANCE OFF</label>
+										</p>
+										<p><input type="checkbox" id="14" />
+										<label for="14">DUET</label>
+										</p>
+										<p><input type="checkbox" id="29" />
+										<label for="29">DEMO</label>
+										</p>
+									</div>
+									<div class="col s4">
+										<p><b>THEATRICAL EVENTS</b></p>
+										<p><input type="checkbox" id="18" />
+										<label for="18">MIME</label>
+										</p>
+										<p><input type="checkbox" id="10" />
+										<label for="10">MIMICRY</label>
+										</p>
+										<p><input type="checkbox" id="12" />
+										<label for="12">MONOACT</label>
+										</p>
+										<p><input type="checkbox" id="19" />
+										<label for="19">STREETPLAY</label>
+										</p>
+									</div>
+									<div class="col s4">
+										<p><b>MUSIC EVENTS</b></p>
+										<p><input type="checkbox" id="8" />
+										<label for="8">DHWANI IDOL</label>
+										</p>
+										<p><input type="checkbox" id="26" />
+										<label for="26">WESTERN SOLO</label>
+										</p>
+										<p><input type="checkbox" id="15" />
+										<label for="15">UNPLUGGED</label>
+										</p>
+										<p><input type="checkbox" id="24" />
+										<label for="24">DECIBELS</label>
+										</p>
+									</div>
+								</div>￼DANCE OFF
+
+
+
+								<div class="row">
+									<div class="col s4">
+										<p><b>FINE ARTS EVENTS</b></p>
+										<p><input type="checkbox" id="17" />
+										<label for="17">FACE PAINTING</label>
+										</p>
+										<p><input type="checkbox" id="16" />
+										<label for="16">COLLAGE</label>
+										</p>
+										<p><input type="checkbox" id="27" />
+										<label for="27">SKETCHING</label>
+										</p>
+										<p><input type="checkbox" id="28" />
+										<label for="28">COLORING</label>
+										</p>
+									</div>
+									<!-- <div class="col s4">
+										<p><b>SPORTS EVENTS</b></p>
+										<p><input type="checkbox" id="22" />
+										<label for="22">CRICKET</label>
+										</p>
+										<p><input type="checkbox" id="23" />
+										<label for="23">BADMINTON</label>
+										</p>
+									</div> -->
+									<div class="col s4">
+										<p><b>LITERARY EVENTS</b></p>
+										<p><input type="checkbox" id="11" />
+										<label for="11">ENGLISH DEBATE</label>
+										</p>
+										<p><input type="checkbox" id="25" />
+										<label for="25">MALAYALAM DEBATE</label>
+										</p>
+										<p><input type="checkbox" id="13" />
+										<label for="13">JAM</label>
+										</p>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="col s4">
+										<p><b>SPORTS EVENTS</b></p>
+										<p><input type="checkbox" id="23" />
+										<label for="23">BADMINTON</label>
+										</p>
+										<p><input type="checkbox" id="22" />
+										<label for="22">CRICKET</label>
+										</p>
+										<p><input type="checkbox" id="32" />
+										<label for="32">FOOTBALL</label>
+										</p>
+										<p><input type="checkbox" id="35" />
+										<label for="35">VOLLEYBALL</label>
+										</p>
+										<p><input type="checkbox" id="33" />
+										<label for="33">TABLE TENNIS</label>
+										</p>
+										<p><input type="checkbox" id="34" />
+										<label for="34">CHESS</label>
+										</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col s6">
+										<button class="btn waves-effect waves-light amber" type="submit" name="action" ng-click="submit()">Submit
+   										</button>
+									</div>
+								</div>
+
+							   </form>
+
+
+			    				</form>
+
+							   </div>
+					   </section>
+						<hr class="separater-hr"/>
+						<!--Register Section End-->
+						
+						
+				
+						
+						<!--Footer-->
+						<footer class="col-lg-10 col-md-11 col-sm-11 center-div contact-wrap  sec-pad">
+							<div class="row">
+								<div class="col-sm-12">
+									<div class="social-icons-wrap float-right">
+										<!--Social Icons-->
+										<ul class="social-icons float-right">
+											<li>
+												<a href="https://www.facebook.com/platinumdhwani" class="social-icon">
+													<span class="fa" data-hover="&#xf09a;">&#xf09a;</span>
+												</a>
+											</li>
+										</ul>
+										<!--/Social Icons-->
+									</div>
+
+									<div class="goto-top text-right float-right">
+										<a data-scroll href="#body">
+											<span data-hover="top">
+												Back to Top
+											</span>
+										</a>
+									</div>
+									
+								</div>	
+							</div>	
+						</footer>
+						<!--/Footer-->
+						
+					</div>	
+					<!--/Main Content-->
+					
+				</div>
+			</div>	
+		</div>
+		<!-- /Container -->
+				
+		<!-- Scripts -->
+     	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/materialize.min.js"></script>
+		<script src="js/jquery-1.12.4.min.js"></script>
+		<script src="js/angular.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/modernizr.custom.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/controllers.js"></script>
+		<script src="js/jquery.placeholder.js"></script>
+		<script src="js/smooth-scroll.js"></script>
+		<script src="js/countTo.js"></script>
+		<script src="js/jQuery.appear.js"></script>
+		<script src="js/isotope.js"></script>
+		<script src="js/typed.js"></script>
+		<script src="js/lightgallery-all.js"></script>
+		<script src="js/jquery.mousewheel.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/froogaloop2.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/init.js"></script>
+	</body>
+</html>
