@@ -11,7 +11,7 @@ app.controller('AppCtrl', function ($scope, $http) {
 			var events="";
 			for(var i=0;i<req.data.length;i++)
 			{
-				events+=req.data[i].name+"\n";
+				events+=req.data[i].name+",";
 			}
 			alert(events);
 		});
