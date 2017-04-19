@@ -58,7 +58,7 @@ app.controller('ContactController', function ($scope, $http) {
         for(var i=0;i<registeredEvents.length;i++)
         {
             var result = $.grep(eventJSON, function(e){ return e.eventId == registeredEvents[i]; });
-            eventNames+=result[0].name+"\n";
+            eventNames+=result[0].name+",";
         }
         var eventList=JSON.stringify(registeredEvents).slice(1,-1);
         $scope.data.events=eventList;
