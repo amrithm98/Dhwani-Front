@@ -33,9 +33,9 @@ app.controller('ContactController', function ($scope, $http) {
             }
             for(var i=0;i<currentEvents.length;i++)
             {
-                console.log(currentEvents[i].toString());
+                // console.log(currentEvents[i].toString());
                 var cb=document.getElementById(currentEvents[i].toString());
-                console.log(selectedEvents);
+                // console.log(selectedEvents);
                 var obj={id:currentEvents[i],
                     check:cb.checked
                 };
