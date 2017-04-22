@@ -72,14 +72,14 @@
 
 						<!--Introduction Sec-->
 						    
-						    <form class="col s12" data-ng-controller="ContactController">
+						    <form name="regForm" class="col s12" data-ng-controller="ContactController">
 						      <div class="row">
 						        <div class="input-field col s6">
-						          <input id="first_name" type="text" class="validate" ng-model="data.name">
+						          <input id="first_name" type="text" class="validate" ng-model="data.name" required>
 						          <label for="first_name">Name</label>
 						        </div>
 						        <div class="input-field col s6">
-						          <input id="last_name" type="text" class="validate" ng-model="data.phone">
+						          <input id="last_name" type="text" class="validate" ng-model="data.phone" required>
 						          <label for="last_name">Phone Number</label>
 						        </div>
 						      </div>
@@ -87,12 +87,12 @@
 
 						      <div class="row">
 						        <div class="input-field col s6">
-						          <input  " id="first_name" type="email" class="validate" ng-model="data.email">
+						          <input  " id="first_name" type="email" class="validate" ng-model="data.email" required>
 						          <label for="first_name">Email ID</label>
 						        </div>
 
 						        <div class="input-field col s6">
-						          <input id="first_name" type="text" class="validate" ng-model="data.college">
+						          <input id="first_name" type="text" class="validate" ng-model="data.college" required>
 						          <label for="first_name">College</label>
 						        </div>
 						       </div>
@@ -241,7 +241,7 @@
 								</div>
 								<div class="row">
 									<div class="col s6">
-										<button class="btn waves-effect waves-light amber" type="submit" name="action" ng-click="submit()">Submit
+										<button class="btn waves-effect waves-light amber" type="submit" ng-disabled="regForm.$invalid" name="action" ng-click="submit()">Submit
    										</button>
 									</div>
 								</div>
